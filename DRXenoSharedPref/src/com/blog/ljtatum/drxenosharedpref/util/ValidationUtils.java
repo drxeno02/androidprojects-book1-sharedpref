@@ -1,4 +1,4 @@
-/** Project and code provided by Leonard Tatum, A.K.A DRXeno
+/** Project and code provided by Leonard Tatum
  * For any questions or comments regarding the use of this code
  * or issues please contact LJTATUM@HOTMAIL.COM
  * ONLINE MOBILE TUTORIALS: ljtatum.blog.com/

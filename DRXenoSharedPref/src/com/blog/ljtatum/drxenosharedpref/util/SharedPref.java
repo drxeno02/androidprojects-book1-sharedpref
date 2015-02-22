@@ -1,4 +1,4 @@
-/** Project and code provided by Leonard Tatum, A.K.A DRXeno
+/** Project and code provided by Leonard Tatum
  * For any questions or comments regarding the use of this code
  * or issues please contact LJTATUM@HOTMAIL.COM
  * ONLINE MOBILE TUTORIALS: ljtatum.blog.com/
@@ -26,7 +26,7 @@ public class SharedPref {
 	}
 	
 	/**
-	 *  Method for clearing all data of preference.
+	 *  Method for clearing all data of preference
 	 */
 	public void clearAllPreferences(){
 		 prefsEditor.clear();
@@ -34,7 +34,7 @@ public class SharedPref {
 	}
 	
 	/**
-	 *  Method for remove data of preference.
+	 *  Method for remove data of preference
 	 */
 	public void removePreference(String key){
 		 prefsEditor.remove(key);
@@ -50,36 +50,6 @@ public class SharedPref {
 		 prefsEditor.putString(key,value);
 		 prefsEditor.commit();
 	}
-	
-	/**
-	 * 
-	 * @param key
-	 * @param value : int Value
-	 */
-	public void setPref(String key, int value) {
-		 prefsEditor.putInt(key,value);
-		 prefsEditor.commit();
-	}
-	
-	/**
-	 * 
-	 * @param key
-	 * @param value : long value
-	 */
-	public void setPref(String key, long value) {
-		 prefsEditor.putLong(key,value);
-		 prefsEditor.commit();
-	}
-
-	/**
-	 * 
-	 * @param key
-	 * @param value  :  boolean value
-	 */
-	public void setPref(String key, boolean value) {
-		 prefsEditor.putBoolean(key,value);
-		 prefsEditor.commit();
-	}
 
 	/**
 	 * 
@@ -90,43 +60,5 @@ public class SharedPref {
 	public String getStringPref(String key, String defValue){
 		return sharedPreferences.getString(key, defValue);
 	}
-
-	/**
-	 * 
-	 * @param key
-	 * @param defValue
-	 * @return int Type
-	 */
-	public int getIntPref(String key, int defValue){
-		return sharedPreferences.getInt(key, defValue);
-	}
 	
-	/**
-	 * 
-	 * @param key
-	 * @return boolean type
-	 */
-	public boolean getBooleanPref(String key){
-		return sharedPreferences.getBoolean(key, false);
-	}
-	
-	/**
-	 * 
-	 * @param key
-	 * @return boolean type
-	 */
-	public boolean getBooleanPref(String key, boolean defValue){
-		return sharedPreferences.getBoolean(key, defValue);
-	}
-	
-	/**
-	 * 
-	 * @param key
-	 * @param defValue
-	 * @return long Type
-	 */
-	public long getLongPref(String key, long defValue){
-		return sharedPreferences.getLong(key, defValue);
-	}	
-
 }

@@ -1,4 +1,4 @@
-/** Project and code provided by Leonard Tatum, A.K.A DRXeno
+/** Project and code provided by Leonard Tatum
  * For any questions or comments regarding the use of this code
  * or issues please contact LJTATUM@HOTMAIL.COM
  * ONLINE MOBILE TUTORIALS: ljtatum.blog.com/
@@ -185,8 +185,10 @@ public class MainActivity extends Activity implements OnClickListener {
 		
 	}
 	
+	/**
+	 * Method is used to hide the virtual keyboard
+	 */
 	private void closeKeyboard() {
-		// hide virtual keyboard
         InputMethodManager imm = (InputMethodManager) getSystemService(
                 Context.INPUT_METHOD_SERVICE);
         imm.hideSoftInputFromWindow(getCurrentFocus().getWindowToken(), 0);
