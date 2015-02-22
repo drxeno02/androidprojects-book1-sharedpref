@@ -1,0 +1,13 @@
+<resources>
+
+    <!-- app labels -->
+    <string name="app_name">DRXeno\'s Shared Preferences</string>
+    <string name="txt_msg1">Message #1:</string>
+    <string name="txt_msg2">Message #2:</string>
+    <string name="txt_stored_msg1">Stored Message #1:</string>
+    <string name="txt_stored_msg2">Stored Message #2:</string>
+    <string name="txt_meta_msg">No Message Currently Stored!</string>
+	<string name="edt_hint_msg">Type Your Message</string>
+	<string name="btn_submit">Submit</string>
+
+</resources>
