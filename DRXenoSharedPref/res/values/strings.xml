@@ -7,6 +7,7 @@
     <string name="txt_stored_msg1">Stored Message #1:</string>
     <string name="txt_stored_msg2">Stored Message #2:</string>
     <string name="txt_meta_msg">No Message Currently Stored!</string>
+    <string name="txt_error">Message cannot be empty</string>
 	<string name="edt_hint_msg">Type Your Message</string>
 	<string name="btn_submit">Submit</string>
 

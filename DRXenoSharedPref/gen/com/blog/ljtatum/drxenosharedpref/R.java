@@ -109,8 +109,9 @@ public final class R {
         /**  app labels 
          */
         public static final int app_name=0x7f060000;
-        public static final int btn_submit=0x7f060007;
-        public static final int edt_hint_msg=0x7f060006;
+        public static final int btn_submit=0x7f060008;
+        public static final int edt_hint_msg=0x7f060007;
+        public static final int txt_error=0x7f060006;
         public static final int txt_meta_msg=0x7f060005;
         public static final int txt_msg1=0x7f060001;
         public static final int txt_msg2=0x7f060002;

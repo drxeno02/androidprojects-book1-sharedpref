@@ -2,7 +2,7 @@
  * For any questions or comments regarding the use of this code
  * or issues please contact LJTATUM@HOTMAIL.COM
  * ONLINE MOBILE TUTORIALS: ljtatum.blog.com/
- * CODEBASE: http://ljtatum.blog.com/codebase_eight/ */
+ * GITHUB: https://github.com/drxeno02/androidprojects-book1-sharedpref */
 
 package com.blog.ljtatum.drxenosharedpref.util;
 

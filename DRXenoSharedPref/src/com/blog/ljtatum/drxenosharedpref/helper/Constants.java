@@ -1,3 +1,9 @@
+/** Project and code provided by Leonard Tatum, A.K.A DRXeno
+ * For any questions or comments regarding the use of this code
+ * or issues please contact LJTATUM@HOTMAIL.COM
+ * ONLINE MOBILE TUTORIALS: ljtatum.blog.com/
+ * GITHUB: https://github.com/drxeno02/androidprojects-book1-sharedpref */
+
 package com.blog.ljtatum.drxenosharedpref.helper;
 
 public class Constants {
