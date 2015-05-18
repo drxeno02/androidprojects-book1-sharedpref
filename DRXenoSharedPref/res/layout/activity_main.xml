@@ -105,7 +105,7 @@
 
     <FrameLayout
         android:id="@+id/fl2"
-        android:layout_width="fill_parent"
+        android:layout_width="match_parent"
         android:layout_height="20dp" >
     </FrameLayout>
 
@@ -122,7 +122,7 @@
 
     <TextView
         android:id="@+id/tv_meta_msg1"
-        android:layout_width="fill_parent"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"
@@ -134,7 +134,7 @@
 
     <TextView
         android:id="@+id/tv4"
-        android:layout_width="fill_parent"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"
@@ -145,7 +145,7 @@
 
     <TextView
         android:id="@+id/tv_meta_msg2"
-        android:layout_width="fill_parent"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"
